@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World and Nigel Campbell!!!!/n this is your day and what a fine day it is.');
+  response.send('Hello World and Nigel C this is your day and what a fine day it is.');
 });
 
 var port = process.env.PORT || 5000;
